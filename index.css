@@ -1267,3 +1267,64 @@ h1.h-has-bottom-margin, h2.h-has-bottom-margin, h3.h-has-bottom-margin, h4.h-has
         width: 68%;
     }
 }
+
+
+
+
+.g-team-home-intro .title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (min-width: 580px){
+    .g-team-home-intro .title {
+        font-size: 48px;
+        line-height: 56px;
+        width: 68%;
+    }
+}
+
+
+
+.g-team-home-intro .image {
+    height: 48px;
+    margin-top: 16px;
+    width: 222px;
+}
+@media screen and (min-width: 580px){
+    .g-team-home-intro .image {
+        margin-top: 24px;
+    }
+}
+
+.g-team-home-intro .cta {
+    margin-top: 24px;
+}
+.g-team-home-intro .cta:hover{
+    background-color: #174ea6;
+}
+
+
+.buttons{
+    border: 1px solid #1a73e8;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 6px 26px;
+    margin-right: 13px;
+    color: #1a73e8;
+}
+
+
+@media screen and (max-width: 480px){
+    .buttons {
+        border: 1px solid #1a73e8;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 6px 14px;
+        margin-right: 13px;
+        color: #1a73e8;
+    }
+}
