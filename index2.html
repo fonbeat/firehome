@@ -196,27 +196,27 @@
             <div class="glue-zippy-set h-t-hercules ng-scope glue-is-collapsed">
                 <ul class="h-c-expansion-panels__list">
                   <li class="glue-zippy glue-a-zippy--v-smooth-expand question ng-isolate-scope glue-c-zippy" data-g-action="faq Expand:What’s included with Google Workspace (formerly G Suite)?" data-g-event="Home: body" data-g-label="in-page interaction" id="zippy-1">
-                    <div class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('1')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-1-content">
+                    <div onclick="myFunction(event)" class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('1')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-1-content">
                       <h4 class="question h-c-expansion-panels__button-header">What’s included with Google Workspace (formerly G Suite)?</h4>
                       <i class="icon material-icons-extended ng-scope" ng-if="!gTeamHomeQuestionsCtrl.ifQuestionExpanded('1')"><img src="chevron-down.png"></i>                      
                     </div>
-                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-1-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
-                      <div class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
-                        Similar to G Suite, all Google Workspace plans provide a custom email for your
+                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div id="dropdown1" glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-1-content" style="max-height:100%">  <div class="glue-c-zippy__content-container" ng-transclude="">
+                      <div  class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
+                        Similar to G Suite, all Google Workspace plans provide a custom email for you
                         business and includes collaboration tools like Gmail, Calendar, Meet, Chat,
                         Drive, Docs, Sheets, Slides, Forms, Sites, and more. For additional details,
-                        <a data-g-action="plans and pricing page" data-g-event="home: body" data-g-label="/pricing.html" href="/pricing.html" tabindex="-1">visit our plans and pricing
+                        <a data-g-action="plans and pricing page" data-g-event="home: body" data-g-label="/pricing.html" href="#" tabindex="-1">visit our plans and pricing
                         page</a>.
                       </div>
                     </div></div></div>
                   </li>
                   <li class="glue-zippy glue-a-zippy--v-smooth-expand question ng-isolate-scope glue-c-zippy" data-g-action="faq Expand:Can my company try Google Workspace before committing?" data-g-event="Home: body" data-g-label="in-page interaction" id="zippy-2">
-                    <div class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('2')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-2-content">
+                    <div onclick="myFunction('_second')" class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('2')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-2-content">
                       <h4 class="question h-c-expansion-panels__button-header">
                         Can my company try Google Workspace before committing?</h4>
                       <i class="icon material-icons-extended ng-scope" ng-if="!gTeamHomeQuestionsCtrl.ifQuestionExpanded('2')"><img src="chevron-down.png"></i>
                     </div>
-                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-2-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
+                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div id="dropdown2" glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-2-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
                       <div class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
                         Absolutely. All plans feature a free 14-day trial, so you can start to see the
                         value of Google Workspace before signing up. <a data-g-action="trial cta" data-g-event="home: body" data-g-label="faq" href="/signup/basic/welcome/?hl=en&amp;source=gafb-homepage-en&amp;ga_region=noram&amp;ga_country=us&amp;ga_lang=en#0" tabindex="-1">
@@ -225,11 +225,11 @@
                     </div></div></div>
                   </li>
                   <li class="glue-zippy glue-a-zippy--v-smooth-expand question ng-isolate-scope glue-c-zippy" data-g-action="faq Expand:Which Google Workspace plan is right for my business?" data-g-event="Home: body" data-g-label="in-page interaction" id="zippy-3">
-                    <div class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('3')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-3-content">
+                    <div onclick="myFunction('_third')" class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('3')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-3-content">
                       <h4 class="question h-c-expansion-panels__button-header">Which Google Workspace plan is right for my business?</h4>
                       <i class="icon material-icons-extended ng-scope" ng-if="!gTeamHomeQuestionsCtrl.ifQuestionExpanded('3')"><img src="chevron-down.png"></i>
                     </div>
-                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-3-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
+                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div id="dropdown3" glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-3-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
                       <div class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
                         We have a variety of plans that are designed to meet your unique business
                         needs. Discover which plan best fits your business needs on our
@@ -238,11 +238,11 @@
                     </div></div></div>
                   </li>
                   <li class="glue-zippy glue-a-zippy--v-smooth-expand question ng-isolate-scope glue-c-zippy" data-g-action="faq Expand:How do I sign up?" data-g-event="Home: body" data-g-label="in-page interaction" id="zippy-4">
-                    <div class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('4')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-4-content">
+                    <div onclick="myFunction('_forth')" class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('4')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-4-content">
                       <h4 class="question h-c-expansion-panels__button-header">How do I sign up?</h4>
                       <i class="icon material-icons-extended ng-scope" ng-if="!gTeamHomeQuestionsCtrl.ifQuestionExpanded('4')"><img src="chevron-down.png"></i>
                     </div>
-                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-4-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
+                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div id="dropdown4" glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-4-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
                       <div class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
                         Businesses with fewer than 300 employees can <a data-g-action="trial cta" data-g-event="home: body" data-g-label="faq" href="/signup/basic/welcome/?hl=en&amp;source=gafb-homepage-en&amp;ga_region=noram&amp;ga_country=us&amp;ga_lang=en#0" tabindex="-1">
                         sign up online</a> today, or <a data-g-action="contact sales" data-g-event="home: body" data-g-label="faq" href="./contact/?source=gafb-homepage-faq-en" tabindex="-1">contact sales</a> if you’re interested
@@ -251,11 +251,11 @@
                     </div></div></div>
                   </li>
                   <li class="glue-zippy glue-a-zippy--v-smooth-expand question ng-isolate-scope glue-c-zippy" data-g-action="faq Expand:I work at a large enterprise company – is Google Workspace a good fit for us?" data-g-event="Home: body" data-g-label="in-page interaction" id="zippy-5">
-                    <div class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('5')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-5-content">
+                    <div onclick="myFunction('_fifth')" class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('5')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-5-content">
                       <h4 class="question h-c-expansion-panels__button-header">I work at a large enterprise company – is Google Workspace a good fit for us?</h4>
                       <i class="icon material-icons-extended ng-scope" ng-if="!gTeamHomeQuestionsCtrl.ifQuestionExpanded('5')"><img src="chevron-down.png"></i>
                     </div>
-                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-5-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
+                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div id="dropdown5" glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-5-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
                       <div class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
                         Yes, we have plans that are specifically built for larger companies that
                         include enterprise-grade security and compliance features, flexible cloud
@@ -264,11 +264,11 @@
                     </div></div></div>
                   </li>
                   <li class="glue-zippy glue-a-zippy--v-smooth-expand question ng-isolate-scope glue-c-zippy" data-g-action="faq Expand:What is the difference between G Suite and Google Workspace?" data-g-event="Home: body" data-g-label="in-page interaction" id="zippy-6">
-                    <div class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('6')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-6-content">
+                    <div onclick="myFunction('_sixth')"class="glue-zippy-btn heading ng-isolate-scope glue-c-zippy__btn" ng-click="gTeamHomeQuestionsCtrl.handleClickQuestion('6')" role="button" tabindex="0" aria-expanded="false" aria-controls="zippy-6-content">
                       <h4 class="question h-c-expansion-panels__button-header">What is the difference between G Suite and Google Workspace?</h4>
                       <i class="icon material-icons-extended ng-scope" ng-if="!gTeamHomeQuestionsCtrl.ifQuestionExpanded('6')"><img src="chevron-down.png"></i>                      
                     </div>
-                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-6-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
+                    <div class="glue-zippy-content ng-isolate-scope glue-c-zippy__content" data-glue-zippy-content-set-aria-hidden="true"><div id="dropdown6"glue-collapse="zippyCtrl.collapsed" role="region" class="glue-c-zippy__collapse-region glue-collapse-collapsed" data-glue-collapse-set-aria-hidden="true" data-min-height="0" aria-expanded="false" aria-hidden="true" id="zippy-6-content">  <div class="glue-c-zippy__content-container" ng-transclude="">
                       <div class="answer col col-s-12 col-m-8 col-l-8 ng-scope">
                         As we’ve evolved G Suite into a more integrated experience across our
                         communication and collaboration tools, we’ve rebranded to Google Workspace to
@@ -281,7 +281,7 @@
         </section>
     </div>
    
-
+<script src="index.js"></script>
 
 
 </body>
