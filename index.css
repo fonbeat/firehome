@@ -2087,19 +2087,24 @@ h4 {
 }
 @media screen and (min-width: 769px){
     .footer-container {
-        padding: 40px 50px;
+        padding: 40px 30px;
         flex-direction: row;
         flex-wrap: wrap;
     }
 }
+
 @media screen and (min-width: 769px){
     .footer-logo {
-        flex: 1;
+        flex: 1 0 auto;
+        width: 50%;
+        margin-top: 25px;
     }
 }
 @media screen and (min-width: 1120px){
     .footer-logo {
-        flex: 1 0 60%;
+        flex: 1 0 auto;
+        width: 50%;
+        margin-top: 25px;
     }
 }
 
@@ -2108,10 +2113,6 @@ h4 {
         margin: 25px 0;
         order: 4;
     }
-}
-.footer-logo_img{
-    opacity: 0.54;
-    max-width: 130px;
 }
 
 
@@ -2302,6 +2303,7 @@ h4 {
 
 .footer .footer-nav_legal .footer-nav_link-item {
     margin-right: 36px;
+    color: #80868B;
 }
 
 .footer .footer-nav_legal .footer-nav_link-item--language {
