@@ -2087,7 +2087,7 @@ h4 {
 }
 @media screen and (min-width: 769px){
     .footer-container {
-        padding: 40px 30px;
+        padding: 40px 90px;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -2271,9 +2271,9 @@ h4 {
 @media screen and (min-width: 769px){
     .footer .footer-nav_social::before {
         bottom: 95px;
-        left: 50%;
-        width: calc(100% - 64px);
-        margin-left: calc(-50% + 32px);
+        left: 54%;
+        width: calc(92% - 73px);
+        margin-left: calc(-50% + 36px);
     }
 }
 
