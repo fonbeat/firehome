@@ -711,7 +711,7 @@ h2 {
     width: 80px;
 }
 .chapter-content_title {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 52px;
     margin: 12px 0 16px 0;
 }
@@ -2116,7 +2116,7 @@ h4 {
 }
 .footer-logo span{
     color: #80868B;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 @media screen and (min-width: 769px){
@@ -2164,7 +2164,7 @@ h4 {
 
 
 .footer-nav_link-item{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
 }
 .footer .footer-nav_link-item {
@@ -2218,6 +2218,7 @@ h4 {
 .footer-nav_link-item a {
     text-decoration: none;
     color: #80868B;
+    font-size: 14px;
 }
 .footer-nav_link-item a:hover{
     color: white;
@@ -2268,7 +2269,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (max-width: 1700px){
     .footer .footer-nav_social::before {
         bottom: 95px;
         left: 54%;
@@ -2276,14 +2277,14 @@ h4 {
         margin-left: calc(-50% + 36px);
     }
 }
-@media screen and (min-width: 1750px){
+/* @media screen and (max-width: 1750px){
     .footer .footer-nav_social::before {
         bottom: 95px;
         left: 52%;
         width: calc(92% - 38px);
         margin-left: calc(-50% + 54px);
     }
-}
+} */
 
 
 
