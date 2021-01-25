@@ -10,11 +10,11 @@ body{
 }
 @font-face{
     font-family: 'normal';
-    src:url(font1.woff2);
+    src:url(../fonts/font1.woff2);
 }
 @font-face{
     font-family: 'normal2';
-    src:url(font2.woff2);
+    src:url(../fonts/font2.woff2);
 }
 .header{
     align-items: center;
@@ -748,7 +748,7 @@ h2 {
     margin-right: 13px;
     background-color: #f1f3f4;    
 }
-.chapter-content_button a{
+.chapter-content_button span{
     color: #000;
 }
 .chapter-content_button img {
