@@ -734,6 +734,7 @@ h2 {
     margin: 28px auto 92px;
     flex-direction: column;
 }
+
 @media screen and (min-width: 480px){
     .chapter-content_buttons {
         flex-direction: row;
@@ -748,9 +749,21 @@ h2 {
     margin-right: 13px;
     background-color: #f1f3f4;    
 }
+@media screen and (max-width: 480px){
+    .margin-top{
+        margin: 0;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 480px){
+    .zero-margin{
+        margin: 0;
+    }
+}
 .chapter-content_button span{
     color: #000;
 }
+
 .chapter-content_button img {
     max-width: 175px;
 }
