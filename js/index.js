@@ -1,22 +1,14 @@
-
-function myFunction(e) {
-    console.log(e);
-    var x = document.getElementById("dropdown1");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-
+  var acc = document.getElementsByClassName("accordion");
+  var i;
   
-  function myFunction(second) {
-    console.log(second);
-    var x = document.getElementById("dropdown2");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
   }
-document.querySelector('#copyright-year').innerText = new Date().getFullYear();
